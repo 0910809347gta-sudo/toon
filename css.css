@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+
+body {
+    font-family: 'Tajawal', sans-serif;
+}
+
+.hero-pattern {
+    background-image: url(https://scontent.fnbo9-1.fna.fbcdn.net/v/t39.30808-6/481079311_122108958914775565_6736187880556704441_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=cc71e4&_nc_ohc=VwX2GHHS3REQ7kNvwEmoTyw&_nc_oc=Adk1IT7LF8q_psXitoYKPku9300jiy2FGQRAd8eclCRphLpqtgndDQdpYkagM-RsH_Y&_nc_zt=23&_nc_ht=scontent.fnbo9-1.fna&_nc_gid=kCu5N8wSs7pxECK_YMAuyw&oh=00_AfVUQssLsp3Nhp_bGh4rRGlz-XEblYkbPhvgHMTJFQ8MBQ&oe=68AB7875 );
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: overlay;
+}
+
+.news-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.mobile-menu {
+    transition: all 0.3s ease;
+}
